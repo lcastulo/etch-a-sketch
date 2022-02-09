@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Etch-a-Sketch</title>
+	  <meta charset="UTF-8"/>
+	  <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header class="header">
+			<h1 class="title">ETCH-A-SKETCH</h1>
+		</header>
+    <main class="main">
+      <div class="left-container">
+        <div class="current-color" id="currentColor"></div>
+        <div class="btnContainer">
+          <div class="button" id="colorModeBtn">Color Mode</div>
+          <div class="button" id="rainbowModeBtn">Rainbow Mode</div>
+          <div class="button" id="eraserBtn">Eraser</div>
+          <div class="button" id="clearBtn">Clear</div>
+        </div>
+      </div>
+      <div class="right-container" id="grid-container">
+        <div class="gridRow" id="gridRow"></div>
+        <div class="cell" id="cell"></div>
+      </div>
+    </main>
+    <script src="./code.js"></script>
+  </body>
+</html>
